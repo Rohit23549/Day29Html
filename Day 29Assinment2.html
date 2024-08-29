@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <fieldset style="width: 470px;">
+        <center>Please fill out the form Completely.</center>
+        <fieldset style="background-color: #64DD17;">
+            <legend>Personal Information</legend>
+            First Name :<input type="text" name="Fname" ><br><br>
+            Last Name :<input type="text" name="Lname" size="30"><br><br>
+            Street:<input type="text" name="street" size="30" ><br><br>
+            City :<input type="text" name="City" size="30"><br><br>
+            State<select>
+                <option disabled>State</option>
+                <option>Uttar pradesh</option>
+                <option>Bihar</option>
+                <option>Uttrakhand</option>
+                <option>Mumbai</option>
+                <option>Gujrat</option>
+                <option>andhra pradesh</option>
+            </select>
+            &nbsp;&nbsp;&nbsp;Zip:<input type="file">
+        </fieldset>
+        <fieldset style="background-color: #64DD17;">
+            <legend>other form Element</legend>
+            Do you have a pet dog : 
+            <input type="radio" name="yes">Yes
+            <input type="radio" name="No">No
+            <br><br>
+            If yes,how many? : 
+            <input type="radio" name="one">One
+            <input type="radio" name="two">Two
+            <input type="radio" name="More than two">More than two
+            <br>
+            What breed of dog have you had as a pet?(check all that apply) :<br>
+            <input type="checkbox" name="Bulldog">Bulldog
+            <input type="checkbox" name="Basset hound">Basset hound
+            <input type="checkbox" name="Bulldog">Golden Retriiever
+            <br><br>
+            Tell us about your fawonte dog:<br>
+            <textarea cols="40" rows="8" name="message"></textarea>
+        </fieldset><br>
+        <center><input type="button" value="Send Info">&nbsp;&nbsp;
+            <input type="button" value="Clear Info"></center>
+    </fieldset>
+</body>
+</html>
